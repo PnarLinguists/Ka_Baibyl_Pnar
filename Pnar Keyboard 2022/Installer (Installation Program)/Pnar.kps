@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>14.0.290.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <GraphicFile>..\PBT-Color-CMYK-0200 Logo.png</GraphicFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL="">1.04</Version>
+    <Name URL="">Pnar</Name>
+    <Copyright URL="">© 2022 Pioneer Bible Translators</Copyright>
+    <WebSite URL="https://pioneerbible.org/">https://pioneerbible.org/</WebSite>
+  </Info>
+  <Files>
+    <File>
+      <Name>..\Pnar.kvk</Name>
+      <Description>File Pnar.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>..\Pnar.kmx</Name>
+      <Description>Keyboard Pnar</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\PBT-Color-CMYK-0200 Logo.png</Name>
+      <Description>File PBT-Color-CMYK-0200 Logo.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Pnar</Name>
+      <ID>pnar</ID>
+      <Version>1.04</Version>
+      <Languages>
+        <Language ID="pbv">Pnar</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>
